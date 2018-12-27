@@ -24,7 +24,7 @@ jobs:
           command: | 
             pip install --upgrade pip 
             pip install --upgrade setuptools 
-            python -m venv venv
+            python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
             bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
