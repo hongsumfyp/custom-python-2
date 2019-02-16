@@ -15,4 +15,15 @@ dateable.chronos==0.8
 
 autobahn==0.6.4
 aiohttp==1.3.0
-airflow==0.6
+
+awscli==1.11.83
+bepasty==0.4.0
+birdhousebuilder.recipe.ngin==0.2.6
+bise.theme==2.4
+bleach==2.1
+boto==2.39.0
+bson==0.4.2
+buildbot==1.3.0
+cipher.googlepam==1.5.1
+clam==0.99.15
+cmsplugin.filer==0.10.2
