@@ -15,4 +15,4 @@ dateable.chronos==0.8
 
 autobahn==0.6.4
 aiohttp==1.3.0
-airflow==1.8.0
+airflow==0.6
