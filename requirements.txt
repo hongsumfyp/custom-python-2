@@ -27,7 +27,7 @@ clam==0.99.15
 cmsplugin.filer==1.0.0
 
 
-isso==0.6
+isso==0.8
 hug==2.3.0
 homeassistant==0.73.2
 gns3-gui==1.5.1
