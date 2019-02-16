@@ -4,4 +4,15 @@ rsa==3.4
 requests==2.2.1
 feedparser==5.1.1
 pycrypto==2.4
-raven==1.9.4
+
+beaker==1.6.4
+pypicloud==0.2.2
+birdhousebuilder.recipe.nginx==0.3.7
+clam==0.99.15
+cipher.googlepam==1.5.1
+djangorestframework-api-key==0.2.0
+dateable.chronos==0.8
+
+autobahn==0.6.4
+aiohttp==1.3.0
+airflow==1.8.0-docs
