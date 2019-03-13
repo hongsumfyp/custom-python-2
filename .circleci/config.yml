@@ -8,7 +8,7 @@ jobs:
     docker:
       - image: rappdw/docker-java-python
 
-    working_directory: ~/example-python-circle
+    working_directory: ~/custom-python-2
 
     steps:
       - checkout
@@ -20,4 +20,4 @@ jobs:
             . venv/bin/activate
             pip install -r requirements.txt
       - run: bash <(curl -s https://copilot.blackducksoftware.com/ci/circle/scripts/upload)
-      #- run: bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
+      - run: bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
